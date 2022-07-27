@@ -7,7 +7,7 @@ class Meta(type):
         return super().__new__(mcs, name, bases, attrs)
 
 
-Meta.children_number = 0
+Meta.class_number = 0
 
 
 class Cls1(metaclass=Meta):
